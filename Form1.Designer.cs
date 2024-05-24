@@ -43,7 +43,7 @@
             yesBtn.Name = "yesBtn";
             yesBtn.Size = new Size(220, 70);
             yesBtn.TabIndex = 0;
-            yesBtn.Text = "Sim, sou bala";
+            yesBtn.Text = "Sim";
             yesBtn.UseVisualStyleBackColor = true;
             yesBtn.Click += button1_Click;
             // 
@@ -55,7 +55,8 @@
             mainLabel.Name = "mainLabel";
             mainLabel.Size = new Size(684, 43);
             mainLabel.TabIndex = 1;
-            mainLabel.Text = "DESEJA GERAR UMA PASSWORD MTO PICA?";
+            mainLabel.Text = "Deseja gerar uma senha aleatória?";
+            
             // 
             // noBtn
             // 
@@ -64,7 +65,7 @@
             noBtn.Name = "noBtn";
             noBtn.Size = new Size(220, 70);
             noBtn.TabIndex = 2;
-            noBtn.Text = "Não, sou tchola";
+            noBtn.Text = "Não";
             noBtn.UseVisualStyleBackColor = true;
             noBtn.Click += button2_Click;
             // 

@@ -28,5 +28,7 @@ namespace PasswordGen
             Clipboard.SetText(label2.Text);
             MessageBox.Show("Copied to Clipboard!");
         }
+
     }
+        
 }
